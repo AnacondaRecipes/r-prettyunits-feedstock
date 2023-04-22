@@ -25,11 +25,11 @@ requirements:
   build:
     - {{ posix }}zip               # [win]
   host:
-    - r-base
+    - r-base  {{ r_version }}
     - r-assertthat
     - r-magrittr
   run:
-    - r-base
+    - r-base  {{ r_version }}
     - r-assertthat
     - r-magrittr
 
